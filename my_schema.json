@@ -1,0 +1,99 @@
+{
+    "name": "test_schema",
+    "title": "Test Schema",
+    "description": "A test Schema",
+    "fields": [
+        {
+            "name": "HDI_rank",
+            "title": "HDI rank",
+            "type": "number",
+            "description": "Rang de l'indice de développement humain du pays"
+        },
+        {
+            "name": "HDI_level",
+            "title": "HDI level",
+            "type": "string",
+            "description": "Niveau de l'indice de développement humain du pays"
+			 "constraints": {
+                "enum": [
+                    "LOW HUMAN DEVELOPMENT", 
+                    "MEDIUM HUMAN DEVELOPMENT", 
+                    "HIGH HUMAN DEVELOPMENT", 
+                        ]
+            }
+        },
+        {
+            "name": "Country",
+            "title": "Country",
+            "type": "string",
+            "description": "Nom du pays"
+        },
+        {
+            "name": "Adult_literacy_rate_1985-1994_(%)",
+            "title": "Adult literacy rate 1985-1994 (%)",
+            "type": "number",
+            "description": "Taux d'alphabétisation des adultes de 1985-1994 en pourcentage"
+        },
+		{
+            "name": "Adult_literacy_rate_1995-2005_(%)",
+            "title": "Adult literacy rate 1995-2005 (%)",
+            "type": "number",
+            "description": "Taux d'alphabétisation des adultes de 1995-2005 en pourcentage"
+        },
+        {
+            "name": "MDG_Youth_literacy_rate_1985-1994(%)",
+            "title": "MDG Youth literacy rate  1985-1994  (%)",
+            "type": "number",
+            "description": "Taux d'alphabétisation des jeunes de 1985 à 1994 en pourcentage"
+        },
+        {
+            "name": "MDG_Youth_literacy_rate_1995-2005_(%)",
+            "title": "MDG Youth literacy rate 1995-2005 (%)",
+            "type": "number",
+            "description": "Taux d'alphabétisation des jeunes de 1995 à 2005 en pourcentage"
+        },
+		{
+            "name": "MDG_Net primary_enrol_rate_1991_(%)",
+            "title": "MDG Net primary enrolment rate 1991 (%)",
+            "type": "number",
+            "description": "Taux (en pourcentage) d'inscription à l'école primaire en 1991"
+        },
+		{
+            "name": "MDG_Net primary_enrol_rate_2005_(%)",
+            "title": "MDG Net primary enrolment rate 2005 (%)",
+            "type": "number",
+            "description": "Taux (en pourcentage) d'inscription à l'école primaire en 2005"
+        },
+		{
+            "name": "Net second_ enrol_rate_1991_(%)",
+            "title": "Net secondary enrolment rate 1991 (%)",
+            "type": "number",
+            "description": "Taux (en pourcentage) d'inscription au secondaire en 1991"
+        },
+		{
+            "name": "Net second_ enrol_rate_2005_(%)",
+            "title": "Net secondary enrolment rate 2005 (%)",
+            "type": "number",
+            "description": "Taux (en pourcentage) d'inscription au secondaire en 2005"
+        },
+		{
+            "name": "MDG_Child_reach_grade_5 _1991_(%)",
+            "title": "Children reaching grade 5 (% of grade 1 cohort) in 1991",
+            "type": "number",
+            "description": "Taux (en pourcentage) des enfants qui atteignent le niveau 5 en 1991"
+        },
+		{
+            "name": "MDG_Child_reach_grade_5_2004_(%)",
+            "title": "Children reaching grade 5 (% of grade 1 cohort) in 2004",
+            "type": "number",
+            "description": "Taux (en pourcentage) des enfants qui atteignent le niveau 5 en 2004"
+        },
+		{
+            "name": "Tertiary_stud_rate_1999-2005_(%)",
+            "title": "Tertiary students in science, engineering, manufacturing and construction(% of tertiary students) from 1999 to 2005",
+            "type": "number",
+            "description": "Taux (en pourcentage) des etudiants en science, ingénieurie, indutrie et bâtiment de 1999 à 2005"
+        },
+    ],
+    "missingValues": ["NaN", ".."]
+}
